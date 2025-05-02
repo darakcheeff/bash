@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "for iteration in {1..$1}; do keepassxc-cli generate; done" | bash 
